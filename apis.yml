@@ -1,7 +1,23 @@
 aid: shoplook
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shoplook.png
 name: ShopLook
-description: ShopLook is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ShopLook is a consumer fashion discovery and outfit-creation platform where a community
+  of over two million creators design and share outfit ideas on a drag-and-drop styling canvas.
+  Everyday shoppers browse the feed, follow designers, and shop expertly designed looks for any
+  occasion, body type, and budget across the web (shoplook.io) and native iOS and Android apps,
+  with an AI personal stylist and a rewards model that pays creators for outfits that inspire
+  purchases. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/shoplook/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fashion
+- E-commerce
+- Styling
+- Shopping
+- Outfits
+- Social
+- Mobile App
+- AI Stylist
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shoplook-domain-security.yml
+- type: TermsOfService
+  url: https://shoplook.io/terms
+- type: PrivacyPolicy
+  url: https://shoplook.io/privacy
+- type: Support
+  url: https://shoplook.zendesk.com/hc/en-us
 - type: Website
   url: https://shoplook.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
