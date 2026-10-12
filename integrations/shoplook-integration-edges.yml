@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/shoplook/integrations
+- https://n8n.io/integrations/shoplook/
+- https://composio.dev/toolkits/shoplook
+- https://monid.ai/tools/shoplook
+checked:
+- https://composio.dev/toolkits/shoplook
+- https://monid.ai/tools/shoplook
+- https://n8n.io/integrations/shoplook/
+- https://zapier.com/apps/shoplook/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
